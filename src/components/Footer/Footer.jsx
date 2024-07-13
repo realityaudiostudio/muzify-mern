@@ -21,6 +21,8 @@ Pin<br></br>
 State</p>
 <p className="footp">hello@muzify.in<br></br>1234567890</p>
         </div>
+        <p className='footlt'>Designed By ALAN JOSE SANTO<br></br>
+        Developed By Alan, Savio,Anoop</p>
     </div>
   )
 }
