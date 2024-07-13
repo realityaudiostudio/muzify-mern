@@ -1,0 +1,63 @@
+.MnFoot
+{
+    margin-top: 157px;
+    border-radius: 16px 16px 0px 0px;
+background: #0E315D;
+}
+.mnfoot2
+{
+    display: inline-flex;
+align-items: center;
+gap:40vh;
+padding-left: 87px;
+padding-top: 95px;
+padding-right: 87px;
+padding-bottom: 95px;
+}
+.drlog img{
+    width: 41px;
+height: 47px;
+flex-shrink: 0;
+}
+.drlog{
+    display: flex;
+    gap: 4px;
+}
+.dlm{
+    color: #D6F2FF;
+text-align: center;
+font-family: Kodchasan;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 5px;
+}
+.wmf
+{
+    color: #D6F2FF;
+font-family: Kodchasan;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sec1 a
+{
+    color: #D6F2FF;
+font-family: Kodchasan;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.footp
+{
+    color: #D6F2FF;
+font-family: Kodchasan;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
