@@ -2,13 +2,14 @@ import React from 'react';
 import "./navbar.css";
 import Logoo from '../../images/logoo.png';
 import { Password } from "@phosphor-icons/react";
-import { Link } from "react-router-dom";
+import { Link,useLocation  } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
   return (
     <div className='mainNav'>
         <div className="links">
-            <Link className='routl' to='/products'>Products</Link>
+            <Link className={`routl ${location.pathname === '/products' ? 'active' : ''}`} to='/products'>Products</Link>
             
             <Link className='routl' to='/about'>About</Link>
             <Link className='routl' to='/contact'>Contact</Link>

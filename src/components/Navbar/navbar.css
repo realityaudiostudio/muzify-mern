@@ -105,6 +105,16 @@ font-weight: 500;
 line-height: normal;
 
 }
+
+.routl.active {
+  /* text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: #0E315D;
+  text-underline-offset: 6px; */
+  border-bottom: 1px solid #0E315D;
+}
+
+
 .lego{
     display: flex;
     align-items: center;

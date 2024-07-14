@@ -1,0 +1,108 @@
+.bann
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 190px;
+    border-radius: 16px;
+background: #D6F2FF;
+box-shadow: 0px 4px 26.4px 5px rgba(14, 49, 93, 0.26);
+margin-left: 114px;
+margin-right: 114px;
+margin-top: 92px;
+padding: 40px;
+}
+.bandat h2
+{
+    color: #0D519B;
+font-family: Kodchasan;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 2px;
+}
+.bandat p{
+    color: #0D519B;
+font-family: Kodchasan;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px;
+}
+.allp
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-top: 66px;
+}
+.indp
+{
+    display: flex;
+    flex-direction:column;
+gap: 10px;
+
+}
+.indpd{
+    display: inline-flex;
+align-items: center;
+gap: 18px;
+}
+.prbt{
+    border-radius: 9px;
+background: #0E315D;
+display: flex;
+height: 40px;
+padding: 4px 14px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #EDFAFF;
+font-family: Kodchasan;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+}
+.indpdpr h2{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+margin-top: 28px;
+}
+.indpdpr p{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+margin-bottom: 30px;
+}
+.indpd h3{
+    color: #0E315D;
+text-align: right;
+font-family: Kodchasan;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+.indp img{
+    width: 259px;
+height: 327px;
+}
