@@ -2,14 +2,16 @@ import React from 'react';
 import "./navbar.css";
 import Logoo from '../../images/logoo.png';
 import { Password } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className='mainNav'>
         <div className="links">
-            <a href='#index'>Products</a>
-            <a href='#index'>About</a>
-            <a href='#index'>Contact</a>
+            <Link className='routl' to='/products'>Products</Link>
+            
+            <Link className='routl' to='/about'>About</Link>
+            <Link className='routl' to='/contact'>Contact</Link>
         </div>
         <div className="lego">
             <img src={Logoo} alt='logo'></img>

@@ -60,13 +60,12 @@ line-height: normal;
 }
 .pros
 {
-    display: inline-flex;
-align-items: center;
-justify-content: center;
-gap: 14px;
-margin-left: 70px;
-/* margin-right: auto; */
-margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 85px;
+    gap: 14px;
 }
 .mmt{
     color: #0E315D;
