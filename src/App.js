@@ -7,6 +7,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 import Products from './pages/Products';
 import Home from './pages/Home';
+import ProInd from './pages/ProInd';
+import ProfilePg from './pages/ProfilePg';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       {/* <Route path="/" element={<Navigate to="/home" />} /> */}
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/proind" element={<ProInd />} />
+        <Route path="/profile" element={<ProfilePg />} />
           {/* <Route path="/welcome" element={ <ProtectedRoute> <Welcome/> </ProtectedRoute>}/> */}
         </Routes>
     </Router>

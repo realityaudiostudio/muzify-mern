@@ -5,6 +5,7 @@ import Situ from '../images/sitar.png';
 import "./csss/products.css";
 import { ShoppingCart } from '@phosphor-icons/react';
 import Footer from '../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 function Products() {
   return (
@@ -24,7 +25,7 @@ function Products() {
                     <div className="indpdpr">
                         <h2>Sitar 6 String</h2>
                         <p>2.5 Review</p>
-                        <button className='prbt'>Buy Now <ShoppingCart></ShoppingCart></button>
+                        <Link to="/proind"><button className='prbt'>Buy Now <ShoppingCart></ShoppingCart></button></Link>
                     </div>
                     <h3>$49</h3>
                 </div>

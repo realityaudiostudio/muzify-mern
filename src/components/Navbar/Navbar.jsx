@@ -19,7 +19,7 @@ function Navbar() {
             <p>Muzify</p>
         </div>
         <div className="loging">
-          <button className='logbtn'>Login <Password size={24} /></button>
+        <Link to='/profile'><button className='logbtn'>Login <Password size={24} /></button></Link>
         </div>
     </div>
   )
