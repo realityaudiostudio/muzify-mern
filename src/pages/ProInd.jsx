@@ -22,7 +22,9 @@ function ProInd() {
         </div>
         <div class='top' style={{
            display: 'flex',
-         alignItems: 'flex-start',
+         alignItems: 'center',
+         justifyContent:'center',
+         gap:'230px',
         marginLeft:'60px',
         marginRight :'60px',
         marginTop:'47px',
@@ -357,8 +359,8 @@ Direct And Better Premium
   borderRadius: '8px',
   background: '#B5EAFF',
   boxShadow: '0px 4px 14.9px 0px rgba(14, 49, 93, 0.26)',
-  height: '222px',
-  width: '1068px',
+  // height: '222px',
+  // width: '1068px',
   marginLeft: '78px',
   marginRight: '106px',
   marginTop: '58px',
@@ -397,7 +399,8 @@ Direct And Better Premium
       <div className='icon' style={{
         width: '35px',
         height: '50px',
-        marginBottom: '8px', // Space between icon and title
+        marginBottom: '8px',
+        color:'#0E315D' ,// Space between icon and title
       }}>
         {item.icon}
       </div>
