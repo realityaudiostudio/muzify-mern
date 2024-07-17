@@ -14,9 +14,11 @@ function ProInd() {
         <div class='head' style={{
           marginLeft:'60px',
           marginTop:'88px',
-          marginBottom:'47px'
+          marginBottom:'47px',
+          color: '#0E315D',
+          fontFamily: 'Kodchasan',
         }}>
-        <h2>Individual Products</h2>
+        <h2>Product Information</h2>
         </div>
         <div class='top' style={{
            display: 'flex',
@@ -32,7 +34,7 @@ function ProInd() {
         }}>
        <div class='info' style={{
         display: 'flex',
-        width: '213px',
+        width: '173px',
         padding: '14px',
         alignItems: 'center',
         gap: '10px',
@@ -49,7 +51,7 @@ function ProInd() {
           fontStyle: 'normal',
           fontWeight: '500',
           lineHeight: 'normal',
-        }}>Product Information</div>
+        }}>String Instrumet</div>
        </div> 
        
        <div  class='ins' style={{
@@ -82,29 +84,33 @@ function ProInd() {
  <div className="proinddat">
         <div className="indpd">
                     <div className="indpdpr">
-                        <h2>Sitar 6 String</h2>
-                        <p>2.5 Review</p>
+                        <h2 class='doll' style={{
+                          marginBottom:'26px'
+                        }}>$49</h2>
+                        
                         <button className='prbt'>Buy Now <ShoppingCart></ShoppingCart></button>
                     </div>
-                    <h3>$49</h3>
                 </div>
                 </div>
 
 
 </div>
-       <div class='sit' style={{
-       width: '442px',
-       height: '391px',
-       borderRadius: '34px',
-      //  boxShadow: '0px 4px 55.2px 4px', 
-      //  marginleft:'405px',
-      //  boxShadow: '0px 4px 55.2px 4px rgba(14, 49, 93, 0.23)'
-      marginTop:'60px',
-      marginRight:'88px'
-      
-       }}>
-       <img src={sitar} alt='sitar'></img>
-       </div>
+<div className='sit' style={{
+    width: '442px',
+    height: '391px',
+    borderRadius: '34px',
+    marginTop: '17px',
+    marginRight: '50px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    // Uncomment to add shadow
+    // boxShadow: '0px 4px 55.2px 4px rgba(14, 49, 93, 0.23)',
+    
+}}>
+    <img src={sitar} alt='sitar' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+</div>
+
        </div>
 {/* <div class='mid' style={{
 display: 'inline-flex',
@@ -448,6 +454,7 @@ Direct And Better Premium
   marginLeft: '100px',
   marginRight: '100px',
   display: 'flex',
+  marginBottom:'50px',
   justifyContent: 'center', // Center horizontally
 }}>
   
@@ -469,13 +476,3 @@ Direct And Better Premium
 }
 
 export default ProInd
-
-
-
-
-
-
-
-
-
-
