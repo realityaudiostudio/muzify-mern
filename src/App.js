@@ -9,6 +9,7 @@ import Products from './pages/Products';
 import Home from './pages/Home';
 import ProInd from './pages/ProInd';
 import ProfilePg from './pages/ProfilePg';
+import CartPage from './pages/CartPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/proind" element={<ProInd />} />
         <Route path="/profile" element={<ProfilePg />} />
+        <Route path="/cart" element={<CartPage/>} />
           {/* <Route path="/welcome" element={ <ProtectedRoute> <Welcome/> </ProtectedRoute>}/> */}
         </Routes>
     </Router>

@@ -364,7 +364,6 @@ Direct And Better Premium
   marginLeft: '78px',
   marginRight: '106px',
   marginTop: '58px',
-  display:'flex'
 }}>
   {[
     {

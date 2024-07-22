@@ -1,0 +1,86 @@
+.carthd
+{
+    border-radius: 10px;
+background: #D6F2FF;
+box-shadow: 0px 4px 10.1px 0px rgba(14, 49, 93, 0.25);
+display: inline-flex;
+padding: 15px 20px;
+align-items: center;
+gap: 10px;
+color: #0E315D;
+text-align: center;
+font-family: Kodchasan;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 35px;
+margin-top: 51px;
+}
+.cartpd
+{
+    border-radius: 43px;
+background: #D6F2FF;
+padding: 30px;
+display: flex;
+width: 728px;
+flex-direction: column;
+align-items: flex-start;
+gap: 60px;
+}
+.cartind
+{
+    display: flex;
+align-items: center;
+gap: 15px;
+align-self: center;
+
+}
+.cartitdt
+{
+    display: block;
+    width: 390px;
+
+}
+.cartitdt h3
+{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 2px;
+}
+.cartitdt p{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cartitdt button{
+    display: inline-flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 9px;
+background: #1EADFF;
+border: none;
+color: #EDFAFF;
+font-family: Kodchasan;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cartind h2{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
