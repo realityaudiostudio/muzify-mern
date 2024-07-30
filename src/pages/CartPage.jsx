@@ -11,7 +11,7 @@ function CartPage() {
     <div>
         <Navbar></Navbar>
         <h2 className="carthd">Cart</h2>
-        <div className="cartall"></div>
+        <div className="cartall">
         <div className="cartpd">
             {/* cartind */}
             <div className="cartind">
@@ -46,6 +46,15 @@ function CartPage() {
                 <h2>$49</h2>
             </div>
             {/* cartind */}
+        </div>
+        {/* ordersummarry  */}
+        <div className="cartsumm">
+            <h2>Order Summary</h2>
+            <p>Total Amount : $327</p>
+            <p>Delivery Fee : $0</p>
+            <h3>Grant Total : $327</h3>
+            <button className="cko">Checkout</button>
+        </div>
         </div>
         <Footer></Footer>
     </div>

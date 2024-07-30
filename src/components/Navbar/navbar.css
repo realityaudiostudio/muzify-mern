@@ -152,3 +152,10 @@ font-weight: 500;
 line-height: normal;
 border: none;
 }
+.loging
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
