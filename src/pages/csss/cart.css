@@ -84,3 +84,59 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.cartall
+{
+    display: flex;
+    gap:35px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start ;
+}
+.cartsumm
+{
+    border-radius: 43px;
+background: #D6F2FF;
+padding: 60px;
+}
+.cartsumm h2{
+    color: #0E315D;
+text-align: center;
+font-family: Kodchasan;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cartsumm p{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cartsumm h3{
+    color: #0E315D;
+font-family: Kodchasan;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cko
+{
+    border-radius: 13px;
+background: #0D519B;
+box-shadow: 0px 4px 5.2px 0px rgba(14, 49, 93, 0.24);
+color: #EDFAFF;
+font-family: Kodchasan;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 10px;
+border: none;
+width: 221px;
+
+}
