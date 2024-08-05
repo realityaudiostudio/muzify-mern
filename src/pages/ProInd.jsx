@@ -7,6 +7,7 @@ import { ShoppingCart } from '@phosphor-icons/react';
 import { HandCoins } from '@phosphor-icons/react/dist/ssr';
 import { Lock } from '@phosphor-icons/react';
 import { Crown } from '@phosphor-icons/react';
+import { Guitar } from '@phosphor-icons/react';
 function ProInd() {
   return (
     <div>
@@ -470,6 +471,170 @@ Direct And Better Premium
     title="YouTube Video"
   ></iframe>
 </div>
+<div class='vinfo' style={{
+        display: 'flex',
+        width: '163px',
+        padding: '14px',
+        alignItems: 'center',
+        marginBottom:'53px',
+        marginLeft:'60px',
+        marginTop:'50px'
+       }}>
+        <div class='vinfoo' style={{
+          color: '#0E315D',
+          textAlign: 'center',
+          fontFamily: 'Kodchasan',
+          fontSize: '20px',
+          fontStyle: 'normal',
+          fontWeight: '500',
+          lineHeight: 'normal',
+        }}> similar Products </div>
+</div>
+
+
+<div class ='align' style={{
+dispaly:'flex',flexDirection:"row"
+// gridTemplateColumns: 'repeat(3, 1fr)'
+,gap:"60px",
+display:'inline-flex'
+}}>
+<div>
+<div class='simm' style={{
+width: '253px',
+height: '224px',
+flexShrink: '0',
+borderRadius: '48px',
+boxShadow: '0px 4px 55.2px 4px ',
+marginLeft:'60px',
+marginTop:'50px',
+display: 'flex',
+ flexDirection:'row',
+gap: '10px',
+}}>
+   <img src={ sitar } alt='sitar' style={{ maxWidth: '400%', maxHeight: '400%' }} />
+</div>
+<div class='sinn' style={{
+marginTop:'30px',
+marginLeft:'70px',
+color: '#0E315D',
+fontFamily: 'Kodchasan',
+fontSize: '24px',
+fontStyle: 'normal',
+fontWeight: '600',
+lineHeight: 'normal',
+display: 'flex',
+}}>
+sitar 6 string $49
+</div>
+
+
+</div>
+<div>
+<div class='simmm' style={{
+width: '253px',
+height: '224px',
+flexShrink: '0',
+borderRadius: '48px',
+boxShadow: '0px 4px 55.2px 4px ',
+marginLeft:'60px',
+marginTop:'50px',
+display: 'flex',
+ flexDirection:'row',
+
+gap: '10px',
+}}>
+   <img src={ sitar } alt='sitar' style={{ maxWidth: '400%', maxHeight: '400%' }} />
+</div>
+<div class='sinnn' style={{
+marginTop:'30px',
+marginLeft:'70px',
+color: '#0E315D',
+fontFamily: 'Kodchasan',
+fontSize: '24px',
+fontStyle: 'normal',
+fontWeight: '600',
+display: 'flex',
+lineHeight: 'normal'
+}}>
+sitar 6 string $49
+</div>
+
+
+</div>
+<div>
+<div class='simx' style={{
+width: '253px',
+height: '224px',
+flexShrink: '0',
+borderRadius: '48px',
+boxShadow: '0px 4px 55.2px 4px ',
+marginLeft:'60px',
+marginTop:'50px',
+display: 'flex',
+ flexDirection:'row',
+gap: '10px',
+}}>
+   <img src={ sitar } alt='sitar' style={{ maxWidth: '400%', maxHeight: '400%' }} />
+</div>
+<div class='sinx' style={{
+marginTop:'30px',
+marginLeft:'70px',
+color: '#0E315D',
+fontFamily: 'Kodchasan',
+fontSize: '24px',
+fontStyle: 'normal',
+fontWeight: '600',
+display: 'flex',
+lineHeight: 'normal'
+}}>
+sitar 6 string $49
+</div>
+
+
+</div>
+
+
+<div>
+<div class='simxx' style={{
+width: '253px',
+height: '224px',
+flexShrink: '0',
+borderRadius: '48px',
+boxShadow: '0px 4px 55.2px 4px ',
+marginLeft:'60px',
+marginTop:'50px',
+display: 'flex',
+ flexDirection:'row',
+gap: '10px',
+}}>
+   <img src={ sitar } alt='sitar' style={{ maxWidth: '400%', maxHeight: '400%' }} />
+</div>
+<div class='sin' style={{
+marginTop:'30px',
+marginLeft:'70px',
+color: '#0E315D',
+fontFamily: 'Kodchasan',
+fontSize: '24px',
+fontStyle: 'normal',
+display: 'flex',
+fontWeight: '600',
+lineHeight: 'normal'
+}}>
+sitar 6 string $49
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
 
 
         <Footer></Footer>
