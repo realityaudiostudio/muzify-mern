@@ -12,6 +12,7 @@ import ProfilePg from './pages/ProfilePg';
 import CartPage from './pages/CartPage';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import WishList from './pages/WishList';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/proind" element={<ProInd />} />
         <Route path="/profile" element={<ProfilePg />} />
         <Route path="/cart" element={<CartPage/>} />
+        <Route path="/wish" element={<WishList/>} />
         <Route path="/login" element={<Login></Login>}/>
         <Route path='/signup' element={<Signup/>}/>
           {/* <Route path="/welcome" element={ <ProtectedRoute> <Welcome/> </ProtectedRoute>}/> */}

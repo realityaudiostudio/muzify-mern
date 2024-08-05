@@ -78,3 +78,47 @@ padding-left: 50px;
 margin-top: 70px;
 margin-bottom: 30px;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .mnpro{
+        padding: 10px;
+    }
+    .bynp {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .proind {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .proind h2 {
+      font-size: 18px;
+    }
+  
+    .proind h3 {
+      font-size: 14px;
+    }
+  
+    .proind p {
+      font-size: 10px;
+    }
+  
+    .pros {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .mmt {
+      font-size: 16px;
+      padding-left: 20px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }

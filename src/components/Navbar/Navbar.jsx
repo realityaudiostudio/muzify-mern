@@ -11,7 +11,7 @@ function Navbar() {
         <div className="links">
             <Link className={`routl ${location.pathname === '/products' ? 'active' : ''}`} to='/products'>Products</Link>
             
-            <Link className='routl' to='/about'>About</Link>
+            <Link className='routl' to='/wish'>WishList</Link>
             <Link className='routl' to='/contact'>Contact</Link>
         </div>
         <div className="lego">

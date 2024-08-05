@@ -70,3 +70,36 @@ font-weight: 500;
 line-height: normal;
 border: none;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .mainHead {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-top: 60px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  
+    .lth {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .bigh {
+      font-size: 36px;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .bybtn {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .byn, .sem {
+      width: 100%;
+      justify-content: center;
+    }
+  }
