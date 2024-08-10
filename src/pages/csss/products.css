@@ -105,4 +105,6 @@ margin: 0;
 .indp img{
     width: 259px;
 height: 327px;
+object-fit: cover;
+border-radius: 10px;
 }

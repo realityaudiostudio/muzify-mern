@@ -3,9 +3,20 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import sitar from '../images/sitar.png';
 import { ShoppingCart } from '@phosphor-icons/react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useUser } from '../context/UserContext';
 
 function ProfilePg() {
+  const {user} = useUser();
+  const navigate = useNavigate();
+  if(!user)
+  {
+    navigate('/login');
+    return null;
+  }
+
+
+
   return (
     <div>
         <Navbar></Navbar>
@@ -19,10 +30,9 @@ function ProfilePg() {
 
         }}>
         <h2>Profile Page</h2>
-   <h2>Alan Jose Santo</h2> <br></br>
+   <h2>{user.username}</h2> <br></br>
         
-        <p>EMAIL: alam123@gmail.com<br></br>
-           PHNO: 1234567890<br></br>
+        <p>EMAIL: {user.email}<br></br>
         </p>
         
         </div>

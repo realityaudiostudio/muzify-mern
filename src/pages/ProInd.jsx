@@ -8,7 +8,11 @@ import { HandCoins } from '@phosphor-icons/react/dist/ssr';
 import { Lock } from '@phosphor-icons/react';
 import { Crown } from '@phosphor-icons/react';
 import { Guitar } from '@phosphor-icons/react';
+import { useProduct } from '../context/ProductContext';
+
+
 function ProInd() {
+  const {product} = useProduct();
   return (
     <div>
         <Navbar></Navbar>
@@ -54,7 +58,7 @@ function ProInd() {
           fontStyle: 'normal',
           fontWeight: '500',
           lineHeight: 'normal',
-        }}>String Instrumet</div>
+        }}>{product.pcategory}</div>
        </div> 
        
        <div  class='ins' style={{
@@ -69,7 +73,7 @@ function ProInd() {
         // marginBottom:'201px',
     
        }}>
-       Sitar 6 String
+       {product.pname}
        </div>
        <div class='sitinf' style={{
        width: '474px',
@@ -83,13 +87,13 @@ function ProInd() {
        lineHeight: 'normal',
        marginTop:'11px',
        marginRight:'245px'
-       }}>Explore the captivating realm of Musical Instruments through our remarkable assortment.</div>
+       }}>{product.pdesc}</div>
  <div className="proinddat">
         <div className="indpd">
                     <div className="indpdpr">
                         <h2 class='doll' style={{
                           marginBottom:'26px'
-                        }}>$49</h2>
+                        }}>{product.pprice}</h2>
                         
                         <button className='prbt'>Buy Now <ShoppingCart></ShoppingCart></button>
                     </div>
@@ -111,7 +115,7 @@ function ProInd() {
     // boxShadow: '0px 4px 55.2px 4px rgba(14, 49, 93, 0.23)',
     
 }}>
-    <img src={sitar} alt='sitar' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+    <img src={product.pimg} alt='sitar' style={{ maxWidth: '100%', maxHeight: '100%' }} />
 </div>
 
        </div>
@@ -464,7 +468,7 @@ Direct And Better Premium
   <iframe 
     width="700" 
     height="345" 
-    src="https://www.youtube.com/embed/RzoO756PvL8?si=xhfI0fheZ-hh-HVo" 
+    src={product.pvid} 
     frameBorder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowFullScreen 

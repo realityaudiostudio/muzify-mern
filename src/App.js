@@ -13,9 +13,13 @@ import CartPage from './pages/CartPage';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import WishList from './pages/WishList';
+import { UserProvider } from './context/UserContext';
+import { ProductProvider } from './context/ProductContext';
 
 function App() {
   return (
+    <UserProvider>
+      <ProductProvider>
     <Router>
       <Routes>
       {/* <Route path="/" element={<Navigate to="/home" />} /> */}
@@ -30,6 +34,8 @@ function App() {
           {/* <Route path="/welcome" element={ <ProtectedRoute> <Welcome/> </ProtectedRoute>}/> */}
         </Routes>
     </Router>
+    </ProductProvider>
+    </UserProvider>
   );
 }
 
